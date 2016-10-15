@@ -26,8 +26,7 @@ class Main extends PluginBase implements Listener {
   
 	public function onJoin(PlayerJoinEvent $e) {
 		$e->getPlayer()->getInventory()->clearAll();
-		$item = Item::fromString(378);
-		$item = Item::fromString(345);
+		$item = Item::fromString(378, 345);
 		$e->getPlayer()->getInventory()->addItem(clone $item);
 	}
 }
