@@ -27,6 +27,6 @@ class Main extends PluginBase implements Listener {
 		$e->getPlayer()->getInventory()->clearAll();
 		$item = Item::fromString(378);
 		$item = Item::fromString(345);
-		$e->getPlayer()->->getInventory()->addItem(clone $item);
+		$e->getPlayer()->getInventory()->addItem(clone $item);
 	}
 }
