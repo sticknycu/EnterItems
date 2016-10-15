@@ -22,10 +22,10 @@ class Main extends PluginBase implements Listener {
 		$this->getLogger()->info(TextFormat::DARK_RED . "I've been disabled!");
 	}
   
-  public function onJoin(PlayerJoinEvent $e) {
-	  $e->getPlayer()->getInventory()->clearAll();
-	  $item = Item::fromString(378);
-	  $item = Item::fromString(345);
-	  $e->getPlayer()->->getInventory()->addItem(clone $item);
-  }
-  
+	public function onJoin(PlayerJoinEvent $e) {
+		$e->getPlayer()->getInventory()->clearAll();
+		$item = Item::fromString(378);
+		$item = Item::fromString(345);
+		$e->getPlayer()->->getInventory()->addItem(clone $item);
+	}
+}
