@@ -7,6 +7,7 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\item\Item;
 use pocketmine\Player;
+use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase implements Listener {
 
