@@ -1,2 +1,2 @@
 # EnterItems
-EnderItem is for my serrver
+EnterItem is for my serrver
