@@ -31,7 +31,7 @@ class Main extends PluginBase implements Listener {
 	public function onJoin(PlayerJoinEvent $e) {
 		$e->getPlayer()->getInventory()->clearAll();
 		$e->getPlayer()->getInventory()->setChestplate(Item::get(444, 0, 1)); // elytra
-		$item2 = Item::fromString(420); // prismaryne cristal
+		$item2 = Item::fromString(422); // prismaryne cristal
 		$e->getPlayer()->getInventory()->addItem(clone $item2);
 	}
 	
