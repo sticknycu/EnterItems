@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener {
   
 	public function onJoin(PlayerJoinEvent $e) {
 		$e->getPlayer()->getInventory()->clearAll();
-		$e->getPlayer()->getInventory()->setChestplate(444); // elytra
+		$e->getPlayer()->getInventory()->setChestplate(Item::get(444, 0, 1); // elytra
 		$item2 = Item::fromString(288); // feather
 		$item1 = Item::fromString(399); // nether star
 		$item3 = Item::fromString(409); // nether star
